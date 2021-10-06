@@ -1,5 +1,5 @@
 #Yet Another Markup Lenguage, TAB en la nueva linea
-name: Ejemplo de acciones 
+name: Issues Alert 
 on:
   issues:
     types: opened
