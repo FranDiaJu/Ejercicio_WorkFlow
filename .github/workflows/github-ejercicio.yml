@@ -1,0 +1,8 @@
+on:
+  issues:
+    types: opened
+jobs:
+  Al_Abrir:
+    runs-on: ubunto-latest
+    steps:
+      - run: echo "Caso| abierto "${{ github.event.issue.number }}"
