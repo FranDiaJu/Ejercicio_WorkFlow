@@ -1,10 +1,9 @@
-#Yet Another Markup Lenguage, TAB en la nueva linea
 name: Issues Alert 
 on:
   issues:
     types: opened
 jobs:
-  Al_Abrir:
-    runs-on: ubunto-latest
+  AlAbrir:
+    runs-on: ubuntu-latest
     steps:
-      - run: echo "Caso| abierto "${{ github.event.issue.number }}"
+      - run: echo "Caso| abierto ${{ github.event.issue.number }}"
