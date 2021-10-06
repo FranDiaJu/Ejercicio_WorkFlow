@@ -1,4 +1,4 @@
-name: Comentario Issue
+name: ComentarioIssue
 on: issue_comment
 jobs:
   issue_commented:    
