@@ -2,7 +2,7 @@ name: Comentario Issue
 on: issue_comment
 jobs:
   issue_commented    
-    name: issue comment
+    name: Comentario Issue
     if: ${{ !github.event.issue.pull_request }}
     runs-on: ubuntu-latest
     steps:
