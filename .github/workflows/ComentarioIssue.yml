@@ -1,8 +1,8 @@
-name: ComentarioIssue
+name: Comentario Issue
 on: issue_comment
 jobs:
-  issue_commented    
-    name: Comentario Issue
+  issue_commented:    
+    name: Issue comment
     if: ${{ !github.event.issue.pull_request }}
     runs-on: ubuntu-latest
     steps:
