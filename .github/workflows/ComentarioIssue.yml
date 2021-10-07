@@ -1,9 +1,0 @@
-name: ComentarioIssue
-on: issue_comment
-jobs:
-  issue_commented:    
-    name: Issue comment
-    if: ${{ !github.event.issue.pull_request }}
-    runs-on: ubuntu-latest
-    steps:
-      - run: echo "comentar el problema ${{ github.event.issue.number }}"
