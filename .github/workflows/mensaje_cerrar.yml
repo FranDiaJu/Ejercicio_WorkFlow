@@ -6,4 +6,4 @@ jobs:
   AlCerrar:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "Caso Cerrado ${{ github.event.issue.number }}"
+      - run: echo "Caso | Cerrado ${{ github.event.issue.number }}"
